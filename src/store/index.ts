@@ -11,6 +11,9 @@ export const mainStore = defineStore('main',{
 
     },
     actions:{
-
+        changeState(){
+            this.count = 100000
+            this.helloWorld ='牛呀'
+        }
     }
 })

@@ -5,8 +5,8 @@
   <p></p>
   <hr>
   <p></p>
-  <div>{{store.helloWorld}}</div>
-  <div>{{store.count}}</div>
+  <div>{{helloWorld}}</div>
+  <div>{{count}}</div>
 </template>
 
 <script lang="ts" setup>

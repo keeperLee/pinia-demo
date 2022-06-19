@@ -3,9 +3,11 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Test from './components/Test.vue'
 import AddButton from './components/AddButton.vue'
+import Car from './components/Car.vue'
 </script>
 
 <template>
+  <Car></Car>
   <AddButton/>
   <Test  />
 </template>

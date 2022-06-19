@@ -4,11 +4,14 @@ export const mainStore = defineStore('main',{
     state:()=>{
         return {
             helloWorld:'hello, world!',
-            count:0
+            count:0,
+            phone:13343243241
         }
     },
     getters:{
-
+        phoneHidden(state){
+            return state.phone.toString().replace(/^(\d{3})\d{4}(\d{4})$/,'$1****$2')
+        }
     },
     actions:{
         changeState(){

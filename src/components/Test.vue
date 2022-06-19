@@ -7,6 +7,9 @@
   <p></p>
   <div>{{helloWorld}}</div>
   <div>{{count}}</div>
+  <hr>
+  <p></p>
+  <div>{{store.phoneHidden}}</div>
 </template>
 
 <script lang="ts" setup>
